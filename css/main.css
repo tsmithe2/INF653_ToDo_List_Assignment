@@ -5,6 +5,8 @@ table
 }
 #header
 {
+    margin: auto;
+    width: 80%;
     text-align: left;
     background-color: rgb(0, 98, 255);
     color: white;
@@ -22,11 +24,7 @@ table
 {
     margin: auto;
     width: 100%;
-    border-top: 2px solid black;
-}
-.other
-{
-    border-top: 2px solid black;
+    border-bottom: 2px solid black;
 }
 .title
 {

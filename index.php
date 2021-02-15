@@ -11,8 +11,8 @@
         <title>ToDo List</title>
     </head>
     <body>
+    <p id = "header" colspan = "2">ToDo List</p>
         <table id = "top" style = "border: 1px solid">
-            <th id = "header" colspan = "2">ToDo List</th>
             <?php
                 if (isset($_POST["del"]))
                 {
