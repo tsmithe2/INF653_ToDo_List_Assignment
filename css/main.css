@@ -6,7 +6,7 @@ table
 #header
 {
     margin: auto;
-    width: 80%;
+    width: 1%;
     text-align: left;
     background-color: rgb(0, 98, 255);
     color: white;
@@ -44,12 +44,12 @@ table
 #T
 {
     margin: auto;
-    width: 98%;
+    width: 95%;
 }
 #D
 {
     margin: auto;
-    width: 98%;
+    width: 95%;
 }
 #addButton
 {
@@ -58,11 +58,22 @@ table
 }
 #top
 {
+    border: 2px solid black;
     display: block;
-    max-height: 300px;
-    overflow-y: scroll;
+    position: fixed;
+    top: 20px;
+    left: 10%;
+    height: 384px;
+    max-height: 385px;
+    overflow-y: auto;
 }
-#addItem
+#bottom
 {
-    margin-top: 20px;
+    border: 2px solid black;
+    background-color: beige;
+    padding-bottom: 20px;
+    display: block;
+    position: fixed;
+    top: 424px;
+    left: 10%;
 }

@@ -11,8 +11,8 @@
         <title>ToDo List</title>
     </head>
     <body>
-    <p id = "header" colspan = "2">ToDo List</p>
-        <table id = "top" style = "border: 1px solid">
+        <table id = "top">
+            <th id = "header" colspan = "2">ToDo List</th>
             <?php
                 if (isset($_POST["del"]))
                 {
@@ -56,7 +56,7 @@
                 $statement->closeCursor();
             ?>
         </table>
-        <table id = "addItem">
+        <table id = "bottom">
             <form action = "index.php" method = "POST">
                 <th id = "footer">Add Item</th>
                 <tr>
